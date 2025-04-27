@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fahkwang&display=swap");
 
 * {
   padding: 0;
@@ -59,7 +63,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +72,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,228 +81,205 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
-/* DID word */
-
-.didDLetter {
-}
-
-.didILetter {
-}
-
-.didDTwoLetter {
-}
-
-/* THE word */
-
-.theTLetter {
-}
-
-.theHLetter {
-}
-
-.theELetter {
-}
-
-/* FRONT-END word */
-
-.frontendFLetter {
-}
-
-.frontendRLetter {
-}
-
-.frontendOLetter {
-}
-
-.frontendNLetter {
-}
-
-.frontendTLetter {
-}
-
-.frontendELetter {
-}
-
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
-}
-
-/* DEVELOPER word */
-
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
-}
-
-/* SYMBOLS */
-
+/* ===========================================================
+   SET 1  – Big red, bold, underlined, monospace, UPPERCASE
+   ========================================================= */
+.didDLetter,
+.didDTwoLetter,
+.theTLetter,
+.frontendFLetter,
+.frontendNTwoLetter,
+.developerDLetter,
+.takeTLetter,
+.upULetter,
+.gardeningGLetter,
+.becauseBLetter,
+.theyTLetter,
+.wantedWLetter,
+.toTLetter,
+.improvePLetter,
+.theirTLetter,
+.rootRLetter,
+.skillsSLetter,
 .hyphen {
+  font-size: 64px;
+  color: #e74c3c;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Fugaz One", monospace;
 }
+
+/* ===========================================================
+      SET 2  – Sky-blue, normal, OVERLINE, classic serif
+      ========================================================= */
+.didILetter,
+.theHLetter,
+.frontendRLetter,
+.developerELetter,
+.takeALetter,
+.upPLetter,
+.gardeningALetter,
+.becauseELetter,
+.theyHLetter,
+.wantedALetter,
+.improveMLetter,
+.theirHLetter,
+.rootOLetter,
+.skillsKLetter,
 .exclamation-mark {
+  font-size: 56px;
+  color: rgb(52 152 219);
+  font-weight: normal;
+  text-decoration: overline;
+  font-family: "Syne Mono";
 }
+
+/* ===========================================================
+      SET 3  – Lime, 400, no decoration, capitalized sans
+      ========================================================= */
+.theELetter,
+.frontendOLetter,
+.developerVLetter,
+.takeKLetter,
+.gardeningRLetter,
+.becauseCLetter,
+.theyELetter,
+.wantedNLetter,
+.toOLetter,
+.improveOLetter,
+.theirELetter,
+.rootOTwoLetter,
+.skillsILetter,
 .question-mark {
+  font-size: 48px;
+  color: hsl(140 70% 45%);
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Fahkwang";
+}
+
+/* ===========================================================
+      SET 4  – Purple, 700, line-through, fun cursive, UPPERCASE
+      ========================================================= */
+.frontendNLetter,
+.developerLLetter,
+.gardeningNLetter,
+.becauseALetter,
+.theyYLetter,
+.wantedTLetter,
+.improveRLetter,
+.theirILetter,
+.rootTLetter,
+.skillsLLetter {
+  font-size: 40px;
+  color: #9b59b6;
+  font-weight: 700; /* “700” */
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Comic Sans MS", cursive;
+}
+
+/* ===========================================================
+      SET 5  – Gold, bold, none, slab-serif capitals
+      ========================================================= */
+.frontendTLetter,
+.developerOLetter,
+.takeELetter,
+.gardeningDLetter,
+.becauseULetter,
+.wantedELetter,
+.improveILetter,
+.theirRLetter,
+.skillsLTwoLetter {
+  font-size: 54px;
+  color: rgb(241 196 15);
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Rockwell", "Roboto Slab", serif;
+}
+
+/* ===========================================================
+      SET 6  – Steel, 400, underline, small-caps sans
+      ========================================================= */
+.frontendELetter,
+.developerPLetter,
+.gardeningELetter,
+.becauseSLetter,
+.wantedDLetter,
+.improveELetter,
+.skillsSTwoLetter {
+  font-size: 46px;
+  color: hsl(210 10% 60%);
+  font-weight: 400;
+  text-decoration: underline;
+  font-variant: small-caps;
+  font-family: "Futura", sans-serif;
+}
+
+/* ===========================================================
+      SET 7  – Orange, 700, overline, italic handwriting
+      ========================================================= */
+.frontendDLetter,
+.developerEThreeLetter,
+.gardeningILetter,
+.becauseETwoLetter,
+.improveVLetter,
+.rootOLetter {
+  font-size: 52px;
+  color: #e67e22;
+  font-weight: 700;
+  text-decoration: overline;
+  font-style: italic;
+  font-family: "Pacifico", cursive;
+}
+
+/* ===========================================================
+      SET 8  – Aqua, normal, line-through, condensed sans
+      ========================================================= */
+.developerETwoLetter, 
+.becauseALetter, 
+.gardeningGTwoLetter,
+.improveILetter, 
+.takeKLetter {
+  font-size: 44px;
+  color: rgb(26 188 156);
+  font-weight: normal;
+  text-decoration: line-through;
+  font-family: "Arial Narrow", sans-serif;
+}
+
+/* ===========================================================
+      SET 9  – Hot-pink, bold, none, heavy display
+      ========================================================= */
+.gardeningNLetter, 
+.becauseULetter, 
+.skillsILetter, 
+.improveVLetter {
+  font-size: 60px;
+  color: #ff2a7f;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Impact", sans-serif;
+}
+
+/* ===========================================================
+      SET 10 – Charcoal, 400, underline, serif small-caps
+      ========================================================= */
+.becauseETwoLetter,
+.wantedTLetter, 
+.improveILetter,
+.skillsLTwoLetter {
+  font-size: 42px;
+  color: hsl(0 0% 20%);
+  font-weight: 400;
+  text-decoration: underline;
+  font-variant: small-caps;
+  font-family: "Times New Roman", serif;
 }

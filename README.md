@@ -32,18 +32,18 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] **This Assignment is NOT tested. You can use all the desired creativity!**
-- [ ] All the tasks of the "Specific requirements" section MUST be solved
-- [ ] **The project's file/folder structure should NOT be edited!**
-- [ ] **The index.html file should NOT be edited!** The only acceptable change are additional classes added to elements.
-- [ ] VSCode IDE MUST have 0 problems listed
-- [ ] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "[w3c web validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)" VSCode extension or the "[Online w3c Markup Validation Service](https://validator.w3.org/#validate_by_input)")
-- [ ] The code MUST be formatted with Prettier.
-- [ ] Push the changes to the Github repo, when finished.
-- [ ] Submit a .txt file with the Github repo url.
+- [X] Fork the project to your github account
+- [X] Clone the project to your computer
+- [X] Open the project in VSCode with `code <cloned_repo_folder_name>`
+- [X] **This Assignment is NOT tested. You can use all the desired creativity!**
+- [X] All the tasks of the "Specific requirements" section MUST be solved
+- [X] **The project's file/folder structure should NOT be edited!**
+- [X] **The index.html file should NOT be edited!** The only acceptable change are additional classes added to elements.
+- [X] VSCode IDE MUST have 0 problems listed
+- [X] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "[w3c web validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)" VSCode extension or the "[Online w3c Markup Validation Service](https://validator.w3.org/#validate_by_input)")
+- [X] The code MUST be formatted with Prettier.
+- [X] Push the changes to the Github repo, when finished.
+- [X] Submit a .txt file with the Github repo url.
 
 ## Specific requirements
 
